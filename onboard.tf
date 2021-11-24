@@ -10,9 +10,7 @@ module "avid-role" {
 output "sophos-role-arn" {
   value = module.avid-role.iam-role-arn
 }
-variable "CLOUDTRAIL_LOGS" {
-    default = true
-}
+
 module "Sophos-Avid-read-policy" {
   source      = "./modules/iam-policy"
   name        = "Sophos-Optix-read-policy"

@@ -16,3 +16,4 @@ variable "FLOWLOG_REGIONS" {}
 variable "FLOW_ONE_REGION_VALUE" {}
 variable "FLOW_LOGS" {}
 variable "ENABLE_FLOW_ONE_REGION" {}
+variable "CLOUDTRAIL_LOGS" {}
